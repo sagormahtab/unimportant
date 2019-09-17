@@ -1,0 +1,251 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Aladin|Lobster&display=swap'); /*font-family: 'Lobster', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Aladin', cursive;*/
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.lobster{
+    font-family: 'Lobster', cursive;
+}
+.aladin{
+    font-family: 'Aladin', cursive;
+}
+
+/*Page Loader(PACE)*/
+.pace-running .entire-content{
+    opacity: 0;
+}
+.pace-done .entire-content{
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
+/*Navbar Glow Text*/
+.glow {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+  }
+  to {
+    text-shadow: 0 0 4px #fff, 0 0 6px #ff4da6, 0 0 8px #ff4da6, 0 0 10px #ff4da6, 0 0 12px #ff4da6, 0 0 14px #ff4da6, 0 0 16px #ff4da6;
+  }
+}
+
+/*Cool Shadow*/
+#coolshadow{
+    text-shadow: 0 0 10px #FFFFFF;
+}
+.coolshadow2{
+    text-shadow: 0 -1px 4px #bcbcbc, 0 -2px 10px #ffff00, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+/*Jumbotron*/
+.jumbotron{
+    margin-bottom: 0px;
+}
+.jumbotron p{
+    font-size: 30px;
+}
+
+
+/*Accordion*/
+.card-header{
+    background: #F44336;
+}
+.card-header:hover{
+    background: #455A64;
+}
+.card-body{
+    background-color: rgba(0,0,0,0.5);
+}
+.white-text{
+    color: #fff;
+}
+.bluetext{
+    color: #189DFF;
+}
+
+/*Carousel*/
+#mainCarousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-caption .personimg{
+    position: relative;
+    top: 0px;
+    left: 370px;
+    animation-delay: 1.0s;
+}
+.carousel-caption .personcake{
+    position: relative;
+    top: 100px;
+    left: -100px;
+    animation-delay: 0.5s;
+}
+.carousel-caption .personcap{
+    position: relative;
+    top: -300px;
+    left: -450px;
+    width: 100px;
+    animation-delay: 1.5s;
+}
+.carousel-caption .mahek{
+    position: relative;
+    top: 458px;
+    left: -428px;
+    font-size: 100px;
+    transform: rotate(-15deg);
+    animation-delay: 1.9s;
+}
+.carousel-caption .tahsin{
+    position: relative;
+    top: 319px;
+    font-size: 100px;
+    left: 428px;
+    transform: rotate(15deg);
+    animation-delay: 2.3s;
+}
+.cap-center{
+    bottom: 35%;
+}
+.cap-center h5{
+    font-size: 65px;
+}
+.cap-center p{
+    font-size: 25px;
+}
+
+/*Testimonial*/
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+    height: 550px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.carousel-item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.carousel-item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.responsive-bg{
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+/*Lower Jumbotron*/
+#lowerJb{
+    background: url(img/cupcakes-690040_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#lowerJb h1{
+    color: #fff;
+}
+#lowerJb p{
+    color: #fff;
+}
+#lowerJb hr{
+    border-color: #fff;
+}
+#lowerJb .ljbBtns{
+    text-align: center;
+}
+.btn-custom{
+    background-color: rgba(39, 190, 178, 0.7);
+    color: #fff;
+}
+.btn-custom:hover{
+    background-color: rgb(39, 190, 178);
+    color: #fff;
+}
+
+/*footer*/
+#footer{
+    background: #1F1F1F;
+}
+#footer p{
+    margin-bottom: 0;
+    padding: 10px 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
