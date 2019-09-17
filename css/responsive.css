@@ -1,0 +1,388 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px)  and (max-width: 1439px){
+  
+.carousel-caption .personimg{
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: 290px;
+}
+.carousel-caption .personcake{
+    width: 460px;
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    top: -255px;
+    left: -378px;
+    width: 90px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 430px;
+    left: -417px;
+    font-size: 85px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 263px;
+    left: 407px;
+    font-size: 85px;
+    transform: rotate(15deg);
+}
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .carousel-caption .personimg{
+    position: relative;
+    width: 210px;
+    top: 20px;
+    left: 260px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 420px;
+    top: 80px;
+    left: -80px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 75px;
+    top: -200px;
+    left: -335px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 369px;
+    left: -328px;
+    font-size: 70px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 252px;
+    left: 320px;
+    font-size: 70px;
+    transform: rotate(15deg);
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 849px) and (max-width: 1024px) {
+  
+  .carousel-caption .personimg{
+    position: relative;
+    width: 170px;
+    top: 20px;
+    left: 220px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 350px;
+    top: 70px;
+    left: -60px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 65px;
+    top: -155px;
+    left: -275px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 322px;
+    left: -263px;
+    font-size: 65px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 219px;
+    left: 252px;
+    font-size: 65px;
+    transform: rotate(15deg);
+}
+.cap-center{
+    bottom: 32%;
+}
+.cap-center h5{
+    font-size: 42px;
+}
+.cap-center p{
+    font-size: 25px;
+}
+  
+}
+
+@media (min-width: 768px) and (max-width: 848px) {
+  
+  .carousel-caption .personimg{
+    position: relative;
+    width: 170px;
+    top: 100px;
+    left: 195px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 350px;
+    top: 160px;
+    left: -90px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 65px;
+    top: -285px;
+    left: -0px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 425px;
+    left: -235px;
+    font-size: 60px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 327px;
+    left: 235px;
+    font-size: 60px;
+    transform: rotate(15deg);
+}
+.cap-center{
+    bottom: 30%;
+}
+.cap-center h5{
+    font-size: 38px;
+}
+.cap-center p{
+    font-size: 22px;
+}
+  
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen and (max-width: 767px) {
+  
+  .carousel-caption .personimg{
+    position: relative;
+    width: 140px;
+    top: 30px;
+    left: 170px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 250px;
+    top: 75px;
+    left: -40px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 50px;
+    top: -115px;
+    left: -200px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 272px;
+    left: -191px;
+    font-size: 45px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 196px;
+    left: 194px;
+    font-size: 45px;
+    transform: rotate(15deg);
+}
+.cap-center{
+    bottom: 27%;
+}
+.cap-center h5{
+    font-size: 34px;
+}
+.cap-center p{
+    font-size: 20px;
+}
+  
+}
+
+@media only screen and (max-width: 650px) {
+    
+.carousel-caption .personimg{
+    position: relative;
+    width: 100px;
+    top: 35px;
+    left: 125px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 180px;
+    top: 75px;
+    left: -30px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 35px;
+    top: -70px;
+    left: -141px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 188px;
+    left: -120px;
+    font-size: 31px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 130px;
+    left: 125px;
+    font-size: 31px;
+    transform: rotate(15deg);
+}
+.cap-center{
+    bottom: 27%;
+}
+.cap-center h5{
+    font-size: 35px;
+}
+.cap-center p{
+    font-size: 18px;
+}
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media only screen and (max-width: 480px) {
+  
+.carousel-caption .personimg{
+    position: relative;
+    width: 90px;
+    top: 38px;
+    left: 100px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 150px;
+    top: 75px;
+    left: -40px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 30px;
+    top: -55px;
+    left: -129px;
+}    
+.carousel-caption .mahek {
+    position: relative;
+    top: 188px;
+    left: -120px;
+    font-size: 27px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 139px;
+    left: 125px;
+    font-size: 27px;
+    transform: rotate(15deg);
+}
+.cap-center{
+    bottom: 14%;
+}
+.cap-center h5{
+    font-size: 30px;
+}
+.cap-center p{
+    font-size: 16px;
+}
+  
+}
+
+@media only screen and (max-width: 399px) {
+  
+.carousel-caption .personimg{
+    position: relative;
+    width: 60px;
+    top: 40px;
+    left: 72px;
+}
+.carousel-caption .personcake{
+    position: relative;
+    width: 120px;
+    top: 55px;
+    left: -30px;
+}
+.carousel-caption .personcap{
+    position: relative;
+    width: 20px;
+    top: -20px;
+    left: -102px;
+}
+    
+.carousel-caption .mahek {
+    position: relative;
+    top: 145px;
+    left: -94px;
+    font-size: 23px;
+    transform: rotate(-15deg);
+}
+    
+.carousel-caption .tahsin {
+    position: relative;
+    top: 95px;
+    font-size: 23px;
+    left: 99px;
+    transform: rotate(15deg);
+}
+
+
+.cap-center{
+    bottom: 0%;
+}
+.cap-center h5{
+    font-size: 30px;
+}
+.cap-center p{
+    font-size: 16px;
+}
+    
+
+  
+}
